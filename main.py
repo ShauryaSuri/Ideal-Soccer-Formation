@@ -1,6 +1,6 @@
 
 import mysql.connector as con
-myCon = con.connect(user='root', host='localhost', password='Password', database='project') # Enter Personal Database Detailspip
+myCon = con.connect(user='root', host='localhost', password='Password', database='project') # Enter Personal Database Details
 cur = myCon.cursor()
 
 def insert():
